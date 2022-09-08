@@ -48,3 +48,14 @@ img {
 #occupation {
   background-color: lightgrey;
 }
+
+#offer {
+
+}
+
+#contact {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
