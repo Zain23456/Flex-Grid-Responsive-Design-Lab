@@ -33,6 +33,7 @@ body {
 main {
   background-color: white;
   text-align: center;
+  width: 200px;
 }
 
 #status {
@@ -47,15 +48,20 @@ img {
 
 #occupation {
   background-color: lightgrey;
+  font-size: 12px;
+  padding: 10px;
 }
 
-#offer {
-
+#brand {
+  display: none;
 }
 
 #contact {
   background-color: lightgreen;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
 
+#contact > p:last-of-type {
+  background-color: green;
 }
